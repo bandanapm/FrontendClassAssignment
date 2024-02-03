@@ -31,13 +31,17 @@ header {
     text-align: center;
 }
 
+nav {
+    margin: 1rem 0;
+}
+
 nav ul {
     list-style: none;
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 nav a {
