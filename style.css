@@ -60,11 +60,16 @@ section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
 img {
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
-    border-radius: 8px;
     margin-top: 20px;
+    border-radius: 50%;
 }
 
 table {
@@ -107,5 +112,13 @@ footer {
 
     section {
         padding: 15px;
+    }
+
+    img {
+        width: auto;
+    }
+
+    .profile {
+        flex-direction: column;
     }
 }
