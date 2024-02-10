@@ -19,20 +19,16 @@ td {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa; 
-    color: #495057; 
+    background-color: #f8f9fa; /* Light gray background */
+    color: #495057; /* Dark gray text */
     line-height: 1.6;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #007bff; /* Primary blue color */
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-nav {
-    margin: 1rem 0;
 }
 
 nav ul {
@@ -41,7 +37,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 nav a {
@@ -60,21 +56,11 @@ section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.profile-right {
-    padding-left: 20px;
-}
-
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
     margin-top: 20px;
-    border-radius: 50%;
 }
 
 table {
@@ -117,13 +103,5 @@ footer {
 
     section {
         padding: 15px;
-    }
-
-    img {
-        width: auto;
-    }
-
-    .profile {
-        flex-direction: column;
     }
 }
